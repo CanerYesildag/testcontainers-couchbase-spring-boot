@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: testcontainers-couchbase-spring-boot
+
+couchbase:
+ bootstrapHost: "127.0.0.1"
+ personBucketName: "Person"
+ username: "Administrator"
+ password: "password"
+ kvTimeoutMs: 300
+ queryTimeoutMs: 5000
+ waitUntilReadyMs: 10000
+ connectTimeoutMs: 10000
